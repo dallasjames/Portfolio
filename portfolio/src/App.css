@@ -10,13 +10,13 @@ body {
 
 img {
   width: 50em;
-  margin: 10em 0 10em 0;
-  border: 2px solid white;
+  margin: 2em 0 2em 0;
+  border-radius: 1rem 1rem 1rem 1rem!important;
 }
 
 div p {
   font-size: 35px;
-  margin: 10em 0 10em 0;
+  margin: 2em 0 2em 0;
 }
 
 a:link {
@@ -42,10 +42,37 @@ a:active {
 .odd {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .even {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
+  align-items: center;
 }
+
+.ui.tabular.menu .item {
+  color: white;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 2px solid transparent;
+  padding: .92857143em 1.42857143em;
+}
+
+.ui.tabular.menu .active.item {
+  color: white;
+  border-top-width: 1px;
+  border-color: white;
+  font-weight: 700;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: .28571429rem .28571429rem .28571429rem .28571429rem!important;
+}
+
+hr {
+  color: white;
+}
+
+/* view-ports 950 */
