@@ -9,8 +9,8 @@ body {
 }
 
 img {
-  width: 50%;
-  margin: 2em 0 2em 0;
+  width: 55%;
+  margin: 2em 1em 2em 1em;
   border-radius: 1rem 1rem 1rem 1rem!important;
 }
 
@@ -41,14 +41,14 @@ a:active {
 
 .odd {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
 .even {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -84,5 +84,9 @@ hr {
   .even {
     display: flex;
     flex-direction: column;
+  }
+
+  img {
+    width: 95%;
   }
 }
