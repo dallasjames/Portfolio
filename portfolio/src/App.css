@@ -9,14 +9,14 @@ body {
 }
 
 img {
-  width: 50em;
+  width: 50%;
   margin: 2em 0 2em 0;
   border-radius: 1rem 1rem 1rem 1rem!important;
 }
 
 div p {
   font-size: 35px;
-  margin: 2em 0 2em 0;
+  margin: 2em 1em 2em 1em;
 }
 
 a:link {
@@ -75,7 +75,7 @@ hr {
   color: white;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .odd {
     display: flex;
     flex-direction: column;
